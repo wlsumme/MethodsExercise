@@ -6,6 +6,7 @@ namespace MethodsExercise
     public class Program
     {
         static void Main(string[] args)
+        
         {
             MadLib();
 
@@ -35,13 +36,22 @@ namespace MethodsExercise
             Console.WriteLine("Exercise 1\n");
             Console.WriteLine("What is you name?");
             var name = Console.ReadLine();
-            Console.WriteLine("What is your favorite color?");
+            Thread.Sleep(2000);
+            Console.WriteLine("\nWhat is your favorite color?");
             var color = Console.ReadLine();
-            Console.WriteLine("What is your favorite animal?");
+            Thread.Sleep(2000);
+            Console.WriteLine("\nWhat is your favorite animal?");
             var animal = Console.ReadLine();
-            Console.WriteLine("What is your favorite car?");
+            Thread.Sleep(2000);
+            Console.WriteLine("\nWhat is your favorite car?");
             var car = Console.ReadLine();
-            Console.WriteLine($" I'm {name}. Today i saw a {animal}, taking a {color} poop on a fancy {car}.");
+            Thread.Sleep(2000);
+            Console.WriteLine($"\n\n Ok so your name is {name}. hopefully you have  COOL {car} one day.");
+            Thread.Sleep(2000);
+            Console.WriteLine($" But if you dont then you should try getting a {color} {animal}.");
+            Thread.Sleep(2000);
+            Console.WriteLine($" Wouldnt that be cool.");
+            Thread.Sleep(2000);
 
             Console.WriteLine("\n\nExercise 2\n");
 
@@ -68,6 +78,7 @@ namespace MethodsExercise
             return num1 / num2;
 
         }
+   
 
 
 
